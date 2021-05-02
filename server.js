@@ -12,6 +12,8 @@ const runner = require('./test-runner.js');
 
 const app = express();
 
+app.disable("x-powered-by");
+
 app.use(helmet({
   noSniff: true,
   xssFilter: true,
