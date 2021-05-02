@@ -17,7 +17,6 @@ class Collectible {
       context.drawImage(imgObj.goldCoinArt, this.x, this.y);
     }
   }
-
 }
 
 /*
@@ -26,6 +25,6 @@ class Collectible {
 */
 try {
   module.exports = Collectible;
-} catch(e) {}
+} catch (e) {}
 
 export default Collectible;

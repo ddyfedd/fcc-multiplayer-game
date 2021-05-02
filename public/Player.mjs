@@ -1,4 +1,5 @@
-import { canvasCalcs } from './canvas-data.mjs'
+import { canvasCalcs } from "./canvas-data.mjs";
+
 class Player {
   constructor({ x = 10, y = 10, w = 30, h = 30, score = 0, main, id }) {
     this.x = x;
